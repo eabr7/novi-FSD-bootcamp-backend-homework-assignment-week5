@@ -37,4 +37,3 @@ public class WaterPokemon extends Pokemon {
         System.out.println(name + "uses Rain Dance on" + enemy);
     }
 }
-
