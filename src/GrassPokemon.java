@@ -11,7 +11,6 @@ public class GrassPokemon extends Pokemon {
         super(name, hp, level, food, sound);
     }
 
-
     // Getters & Setters:
 
 

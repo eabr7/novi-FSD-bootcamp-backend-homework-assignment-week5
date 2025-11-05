@@ -12,7 +12,6 @@ public class PokemonTrainer {
     }
 
 // getters & setters:
-
     public String getName() {
         return name;
     }
@@ -28,8 +27,4 @@ public class PokemonTrainer {
     public void setPokemons(List<Pokemon> pokemons) {
         this.pokemons = pokemons;
     }
-
-// methods:
-
-
 }
