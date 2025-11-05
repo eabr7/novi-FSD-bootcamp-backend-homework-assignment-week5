@@ -16,10 +16,11 @@ public class GrassPokemon extends Pokemon {
         return amountLeaves;
     }
 
-    List<String> getAttacks() {
+    public List<String> getAttacks() {
         return attacks;
     }
 
+// Methods:
     public void solarBeam(Pokemon name, Pokemon enemy) {
         System.out.println(name + "uses Solar Beam on" + enemy);
     }

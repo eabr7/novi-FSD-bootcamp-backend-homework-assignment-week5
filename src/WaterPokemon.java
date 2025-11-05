@@ -3,8 +3,8 @@ import java.util.List;
 
 public class WaterPokemon extends Pokemon {
     // Variables:
-    String type;
-    List<String> attacks = Arrays.asList(/*voer de aanvallen hier in*/);
+    private final String waterState = "water";
+   private final List<String> attacks = Arrays.asList("Surf", "Hydropump", "Hydrocanon", "Rain Dance");
 
     // Constructor:
     public WaterPokemon(String name, int hp, int level, String food, String sound) {
@@ -12,17 +12,29 @@ public class WaterPokemon extends Pokemon {
     }
 
     // Getters & Setters:
-
-
-    // Methods:
-    List<String> getAttacks() {
-        return attacks;
-
-
+    public String getWaterState() {
+        return waterState;
     }
 
-    void surf(Pokemon name, Pokemon enemy);
-    void hydroPump(Pokemon name, Pokemon enemy);
-    void hydroCanon(Pokemon name, Pokemon enemy);
-    void rainDance(Pokemon name, Pokemon enemy);
+    public List<String> getAttacks() {
+        return attacks;
+    }
+
+    // Methods:
+    void surf(Pokemon name, Pokemon enemy) {
+        System.out.println(name + "uses Surf on" + enemy);
+    }
+
+    void hydroPump(Pokemon name, Pokemon enemy) {
+        System.out.println(name + "uses Hydropump on" + enemy);
+    }
+
+    void hydroCanon(Pokemon name, Pokemon enemy) {
+        System.out.println(name + "uses Hydrocanon on" + enemy);
+    }
+
+    void rainDance(Pokemon name, Pokemon enemy) {
+        System.out.println(name + "uses Rain Dance on" + enemy);
+    }
 }
+

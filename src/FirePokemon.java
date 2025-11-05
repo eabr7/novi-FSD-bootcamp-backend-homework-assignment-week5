@@ -20,6 +20,7 @@ public class FirePokemon extends Pokemon {
         return attacks;
     }
 
+// Methods:
     void fireLash(Pokemon name, Pokemon enemy){
         System.out.println(name + "uses Fire Lash on" + enemy);
     }
