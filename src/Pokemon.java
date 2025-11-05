@@ -5,9 +5,9 @@ public abstract class Pokemon {
     private final int level;
     private final String food;
     private final String sound;
+    private String type;
 
     // constructor:
-
     public Pokemon(String name, int hp, int level, String food, String sound) {
         this.name = name;
         this.hp = hp;
@@ -16,7 +16,7 @@ public abstract class Pokemon {
         this.sound = sound;
     }
 
-    // getters:
+    // getters & setter:
     public String getName() {
         return name;
     }
@@ -35,6 +35,14 @@ public abstract class Pokemon {
 
     public String getSound() {
         return sound;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }
 

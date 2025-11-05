@@ -7,7 +7,9 @@ public class FirePokemon extends Pokemon {
     List<String> attacks = Arrays.asList(/*voer de aanvallen hier in*/);
 
     // Constructor:
-
+    public FirePokemon(String name, int hp, int level, String food, String sound) {
+        super(name, hp, level, food, sound);
+    }
 
     // Getters & Setters:
 

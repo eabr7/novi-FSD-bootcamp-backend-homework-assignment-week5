@@ -3,10 +3,6 @@ public interface PokemonGym {
 
 
 
-    /*deze variabelen komen eenmaal voor*/
-//    List<Pokemon> pokemons;
-    
-
-fg
+...
 
 }
