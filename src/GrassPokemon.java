@@ -21,8 +21,9 @@ public class GrassPokemon extends Pokemon {
     }
 
 // Methods:
-    public void solarBeam(Pokemon name, Pokemon enemy) {
-        System.out.println(name + "uses Solar Beam on" + enemy);
+    public void solarBeam(Pokemon pokemon, Pokemon enemy) {
+        System.out.println(pokemon.getName() + "uses Solar Beam on" + enemy.getName());
+
     }
     public void leafStorm(Pokemon name, Pokemon enemy) {
         System.out.println(name + "uses Leaf Storm on" + enemy);
